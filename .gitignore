@@ -1,0 +1,50 @@
+# API Keys y archivos sensibles
+API_Key_Groq.txt
+*.key
+.env
+# Nota: .env.example debe estar en el repositorio como plantilla
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos temporales de exportación
+*.tmp
+temp/
+tmp/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Archivos de exportación generados
+conversacion_*.txt
+conversacion_*.md
+conversacion_*.pdf
+conversacion_*.docx
